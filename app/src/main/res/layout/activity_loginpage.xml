@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_android_large___1"
+    tools:context=".loginpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/login"
+            android:layout_marginTop="14dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_marginTop="200dp"
+            >
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Name"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"
+                />
+            <EditText
+                android:id="@+id/identity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Identity"
+                android:drawableLeft="@drawable/ic_baseline_assignment_ind_24"
+                android:drawablePadding="10dp"
+                android:inputType="number"
+                />
+            <EditText
+                android:id="@+id/Phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Number"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:drawablePadding="10dp"
+                android:inputType="number"
+                />
+            <EditText
+                android:id="@+id/Email_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Email Address"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/Loginbtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_group_1"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Enter your Credentials"
+            app:textAllCaps="true" />
+
+    </LinearLayout>
+
+</ScrollView>
